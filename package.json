@@ -1,0 +1,26 @@
+{
+  "name": "4a00fq05-3001-heroku-sulonen-suvi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susulone/4A00FQ05-3001-Heroku-sulonen-suvi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susulone/4A00FQ05-3001-Heroku-sulonen-suvi/issues"
+  },
+  "homepage": "https://github.com/susulone/4A00FQ05-3001-Heroku-sulonen-suvi#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}

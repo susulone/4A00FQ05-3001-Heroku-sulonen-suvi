@@ -3,6 +3,7 @@ const mysql = require("mysql");
 const app = express();
 const port = process.env.PORT || 8080;
 
+require("dotenv").config();
 let config = {
   host: "mydb.tamk.fi",
   user: process.env.user,
@@ -13,7 +14,7 @@ let config = {
 const connection = mysql.createConnection(config);
 
 app.get("/", (req, res) => {
-  connection.query("SELECT * from location", (error, results) => {
+  connection.query("SELECT * from locations", (error, results) => {
     if (error) {
       console.log(error);
     } else {
